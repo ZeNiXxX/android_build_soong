@@ -117,6 +117,8 @@ var Configuration = map[string]PathConfig{
 	"zip":      Allowed,
 	"zipinfo":  Allowed,
 	"svn":  Allowed,
+	"curl":  Allowed,
+	"ping":  Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
